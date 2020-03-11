@@ -51,7 +51,7 @@ int main(void) {
   for(;;){
   cout<<"\n(getche example) please type a letter: ";
   c = getche();
-  cout<<"\nYou typed: \n";
+  cout<<"\nYou typed: "<<c<<endl;
   }  
   return 0;
 }
